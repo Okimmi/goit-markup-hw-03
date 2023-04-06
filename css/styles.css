@@ -1,0 +1,202 @@
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --main-font-size: 16px;
+
+  --logo-font-family: "Raleway", sans-serif;
+
+  --dark-color: #2e2f42;
+  --text-color: #434455;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --light-color: #f4f4fd;
+  --white-bg-color: #ffffff;
+  --success-color: #31d0aa;
+  --subtitle-text: #8e8f99;
+  --accent-color: #e7e9fc;
+  --modal-overlay-color: #2e2f42;
+  --hero-bg-color: #2e2f42;
+  --modal-bg-color: #fcfcfc;
+}
+
+/* ======= BASE STYLES ======= */
+
+body {
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+
+  background-color: var(--white-bg-color);
+  color: var(--text-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/* ======= COMPONENT STYLES ======= */
+
+.logo {
+  font-family: var(--logo-font-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+
+.section-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+
+.logo-light-theme {
+  color: var(--dark-color);
+}
+
+.logo-dark-theme {
+  color: var(--light-color);
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--pressed-state-color);
+}
+
+.btn {
+  cursor: pointer;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.list-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+/* ======= HEADER STYLES ======= */
+
+.nav-item {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.contact-item {
+  color: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address {
+  font-style: normal;
+}
+/* ======= HERO SECTION STYLES ======= */
+
+.hero-section {
+  background-color: var(--dark-color);
+}
+
+.hero-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white-bg-color);
+}
+
+.order-btn {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--white-bg-color);
+  background-color: var(--primary-brand-color);
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color: var(--pressed-state-color);
+}
+
+/* ======= ADVANTAGES SECTION STYLES ======= */
+
+.list-item-dscr {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ======= TEAM SECTION STYLES ======= */
+
+.team-section {
+  background-color: var(--light-color);
+}
+
+.team-card {
+  background-color: var(--white-bg-color);
+}
+
+.job-title {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+}
+
+/* ======= PORTFOLIO SECTION STYLES ======= */
+
+.filter-btn {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  background-color: var(--light-color);
+  color: var(--primary-brand-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--pressed-state-color);
+  color: var(--white-bg-color);
+}
+
+.portfolio-card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.portfolio-card-dscr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+/* ======= FOOTER SYLES ======= */
+
+.footer {
+  background-color: var(--dark-color);
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-color);
+}
