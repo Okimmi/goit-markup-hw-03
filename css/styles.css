@@ -380,18 +380,20 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--distance);
+  column-gap: var(--distance);
+  row-gap: 48px;
   justify-content: center;
 }
 
 .portfolio-card-text {
   padding: 32px 16px;
+
+  border: 1px solid var(--accent-color);
+  border-top: transparent;
 }
 
 .portfolio-card {
   --item-in-row: 3;
-
-  border: 1px solid var(--accent-color);
 }
 /* ======= FOOTER SYLES ======= */
 
