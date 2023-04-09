@@ -366,7 +366,8 @@ img {
 }
 
 .portfolio-section {
-  padding-top: 96px;
+  padding: 96px 120px;
+  padding-bottom: 120px;
 }
 
 .filter {
